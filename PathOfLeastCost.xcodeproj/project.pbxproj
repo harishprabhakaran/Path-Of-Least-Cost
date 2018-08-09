@@ -24,8 +24,8 @@
 		F607A2B5211A75FE002D9A67 /* exclamation.png in Resources */ = {isa = PBXBuildFile; fileRef = F607A2B2211A75FE002D9A67 /* exclamation.png */; };
 		F607A2B6211A75FE002D9A67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607A2B3211A75FE002D9A67 /* AppDelegate.swift */; };
 		F607A2B7211A75FE002D9A67 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = F607A2B4211A75FE002D9A67 /* reload.png */; };
-		F607A2BD211A7632002D9A67 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607A2BC211A7632002D9A67 /* ErrorMessage.swift */; };
-		F607A2BF211A7636002D9A67 /* MatrixValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607A2BE211A7636002D9A67 /* MatrixValidator.swift */; };
+		F607A2C9211B4CBB002D9A67 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607A2C8211B4CBB002D9A67 /* ErrorMessage.swift */; };
+		F607A2CB211B4CD9002D9A67 /* MatrixValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F607A2CA211B4CD9002D9A67 /* MatrixValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +69,8 @@
 		F607A2B2211A75FE002D9A67 /* exclamation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exclamation.png; sourceTree = "<group>"; };
 		F607A2B3211A75FE002D9A67 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F607A2B4211A75FE002D9A67 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
-		F607A2BC211A7632002D9A67 /* ErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
-		F607A2BE211A7636002D9A67 /* MatrixValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixValidator.swift; sourceTree = "<group>"; };
+		F607A2C8211B4CBB002D9A67 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ErrorMessage.swift; path = PathOfLeastCost/Common/ErrorMessage.swift; sourceTree = SOURCE_ROOT; };
+		F607A2CA211B4CD9002D9A67 /* MatrixValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MatrixValidator.swift; path = PathOfLeastCost/Common/MatrixValidator.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,8 +166,8 @@
 		F607A28A211A727F002D9A67 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				F607A2BE211A7636002D9A67 /* MatrixValidator.swift */,
-				F607A2BC211A7632002D9A67 /* ErrorMessage.swift */,
+				F607A2C8211B4CBB002D9A67 /* ErrorMessage.swift */,
+				F607A2CA211B4CD9002D9A67 /* MatrixValidator.swift */,
 			);
 			name = Common;
 			path = "../../path-of-lowest-cost/path-of-lowest-cost/Common";
@@ -347,11 +347,11 @@
 				F607A292211A7284002D9A67 /* String+Extension.swift in Sources */,
 				F607A2B6211A75FE002D9A67 /* AppDelegate.swift in Sources */,
 				F607A29D211A728E002D9A67 /* InitialViewController.swift in Sources */,
-				F607A2BD211A7632002D9A67 /* ErrorMessage.swift in Sources */,
+				F607A2C9211B4CBB002D9A67 /* ErrorMessage.swift in Sources */,
 				F607A299211A7288002D9A67 /* LeastCostCalculatorRecursive.swift in Sources */,
 				F607A29A211A7288002D9A67 /* Models.swift in Sources */,
 				F607A293211A7284002D9A67 /* View+Extension.swift in Sources */,
-				F607A2BF211A7636002D9A67 /* MatrixValidator.swift in Sources */,
+				F607A2CB211B4CD9002D9A67 /* MatrixValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
